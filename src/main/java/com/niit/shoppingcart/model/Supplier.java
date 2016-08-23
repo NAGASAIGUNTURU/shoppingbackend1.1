@@ -15,6 +15,7 @@ public class Supplier {
 	private String id;
 	private String name;
 	private String address;
+	private String description;
 	public String getId() {
 		return id;
 	}
@@ -33,5 +34,11 @@ public class Supplier {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
 }

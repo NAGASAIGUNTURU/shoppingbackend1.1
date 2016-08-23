@@ -18,7 +18,7 @@ public class ProductTest {
 		ProductDAO productDAO = (ProductDAO) context.getBean("productDAO");
 		Product product = (Product) context.getBean("product");
 
-		product.setId("PD001");
+		product.setId("PD003");
 		product.setName("samsung");
 		product.setDescription("this is laptop product");
 		product.setPrice(26000);

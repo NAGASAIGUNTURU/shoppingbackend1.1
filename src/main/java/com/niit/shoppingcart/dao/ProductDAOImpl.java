@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.niit.shoppingcart.model.Product;
 
-@Repository(value="productDAO")
+@Repository("productDAO")
 @SuppressWarnings("deprecation")
 public class ProductDAOImpl implements ProductDAO {
 

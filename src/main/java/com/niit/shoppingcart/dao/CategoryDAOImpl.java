@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.niit.shoppingcart.model.Category;
 
-@Repository(value="categoryDAO")
+@Repository("categoryDAO")
 @SuppressWarnings("deprecation")
 public class CategoryDAOImpl implements CategoryDAO {
 

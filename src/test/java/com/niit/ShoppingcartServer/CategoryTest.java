@@ -18,9 +18,9 @@ public class CategoryTest {
 		CategoryDAO categoryDAO = (CategoryDAO) context.getBean("categoryDAO");
 		Category category = (Category) context.getBean("category");
 
-		category.setId("CG006");
-		category.setName("LAPPY");
-		category.setDescription("this is laptop category");
+		category.setId("CG022");
+		category.setName("mappy");
+		category.setDescription("this is maptop category");
 
 		if (categoryDAO.save(category) == true) {
 			System.out.println("category created successfully");
